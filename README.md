@@ -27,27 +27,27 @@ Import / update geonames data in to sqlite
 
 
 Formated as:  
-	```sql
-		"gid" INTEGER NOT NULL UNIQUE , 
-		"iso" TEXT, 
-		"name" TEXT, 
-		"asciiname" TEXT, 
-		"latitude" REAL, 
-		"longitude" REAL, 
-		"timezone" TEXT, 
-		"population" INTEGER, 
-		"elevation" INTEGER, 
-		"alternate_names" TEXT, 
-		"feature_class" TEXT, 
-		"feature_code" TEXT, 
-		"cc2" TEXT, 
-		"admin1_code" TEXT, 
-		"admin2_code" TEXT, 
-		"admin3_code" TEXT, 
-		"admin4_code" TEXT, 
-		"dem" INTEGER, 
-		"updated" TEXT
-	'''
+```sql
+	"gid" INTEGER NOT NULL UNIQUE , 
+	"iso" TEXT, 
+	"name" TEXT, 
+	"asciiname" TEXT, 
+	"latitude" REAL, 
+	"longitude" REAL, 
+	"timezone" TEXT, 
+	"population" INTEGER, 
+	"elevation" INTEGER, 
+	"alternate_names" TEXT, 
+	"feature_class" TEXT, 
+	"feature_code" TEXT, 
+	"cc2" TEXT, 
+	"admin1_code" TEXT, 
+	"admin2_code" TEXT, 
+	"admin3_code" TEXT, 
+	"admin4_code" TEXT, 
+	"dem" INTEGER, 
+	"updated" TEXT
+```
 
 This script is for worldcities but could easyly be adopted for other data.
 
